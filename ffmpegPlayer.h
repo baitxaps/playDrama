@@ -1,3 +1,3 @@
 @interface ffmpegPlayer :NSObject
-@(strong,nonamatic)GLView *glView;
+@proprty(strong,nonamatic)GLView *glView;
 @end
