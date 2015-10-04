@@ -1,0 +1,48 @@
+//
+//  PlayDrama.pch
+//  PlayDrama
+//
+//  Created by chenhairong on 15/4/11.
+//  Copyright (c) 2015年 times. All rights reserved.
+//
+
+#ifndef PlayDrama_PlayDrama_pch
+#define PlayDrama_PlayDrama_pch
+
+#import "PBasicViewController.h"
+#import "PSearcherView.h"
+#import "PProgressHUB.h"
+#import "PSegmentMenuView.h"
+#import "PConfig.h"
+#import "PEnums.h"
+#import "UIColor+RGB.h"
+#import "UIView+Draw.h"
+#import "NSString+Size.h"
+#import "UIImage+DSP.h"
+#import "UIBarButtonItem+PBarButtonItem.h"
+#import "UIImageView+WebCache.h"
+#import "Toast+UIView.h"
+#import "UIScrollView+MJRefresh.h"
+#import "NSError+NSError.h"
+
+#import "GOKxMenu.h"
+#import "PNoDataView.h"
+#import "PSegmentMenuView.h"
+#import "PNetWorkRequest.h"
+#import "PCountDownButton.h"
+#import "PlayDramaDelegate.h"
+#import "PContainerCoords.h"
+#import "PShareToolsDelegate.h"
+#import "PDramaDelegate.h"
+#import "PConst.h"
+#import "RESideMenu.h"
+#import "PVerifyFunc.h"
+#import "PUserEntity.h"
+#import "Networking.h"
+#import "PUtility.h"
+#import "MBProgressHUD.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

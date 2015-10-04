@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PClauseViewController">
+            <connections>
+                <outlet property="ternsOfServiceTextView" destination="IXV-Lp-sVz" id="VyD-0h-La1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="au" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXV-Lp-sVz">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="IXV-Lp-sVz" secondAttribute="trailing" constant="-28" id="NIQ-fK-d27">
+                    <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="IXV-Lp-sVz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ace-Fr-IQu"/>
+                <constraint firstAttribute="bottom" secondItem="IXV-Lp-sVz" secondAttribute="bottom" id="c0P-kW-Wma"/>
+                <constraint firstItem="IXV-Lp-sVz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="sKs-pj-WJN"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="IXV-Lp-sVz"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="NIQ-fK-d27"/>
+                    <exclude reference="ace-Fr-IQu"/>
+                    <exclude reference="c0P-kW-Wma"/>
+                    <exclude reference="sKs-pj-WJN"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="IXV-Lp-sVz"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="NIQ-fK-d27"/>
+                    <include reference="ace-Fr-IQu"/>
+                    <include reference="c0P-kW-Wma"/>
+                    <include reference="sKs-pj-WJN"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

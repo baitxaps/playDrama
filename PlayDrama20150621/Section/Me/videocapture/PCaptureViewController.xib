@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PCaptureViewController">
+            <connections>
+                <outlet property="bottomContainer" destination="usi-Hi-OXl" id="Kk1-tX-j9s"/>
+                <outlet property="previewView" destination="zHM-B8-QSA" id="NGW-mh-yqa"/>
+                <outlet property="recordImageView" destination="b4S-yi-Jjq" id="atO-Rn-CP2"/>
+                <outlet property="topContainer" destination="rJP-ow-ydd" id="R92-mV-tbK"/>
+                <outlet property="view" destination="zo8-TW-NIM" id="1FC-WJ-vHL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zo8-TW-NIM">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="rJP-ow-ydd">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="40"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Ew7-0c-2AU">
+                            <rect key="frame" x="15" y="5" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="record_close_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" image="record_close_disable.png"/>
+                            <state key="selected" image="record_close_highlighted.png"/>
+                            <state key="highlighted" image="record_close_highlighted.png"/>
+                            <connections>
+                                <action selector="closeActoin:" destination="-1" eventType="touchUpInside" id="mQo-hF-8rX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yHZ-go-TQH">
+                            <rect key="frame" x="264" y="7" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="record_flashlight_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" image="record_flashlight_disable.png"/>
+                            <state key="selected" image="record_flashlight_highlighted.png"/>
+                            <state key="highlighted" image="record_flashlight_highlighted.png"/>
+                            <connections>
+                                <action selector="flashAction:" destination="-1" eventType="touchUpInside" id="zS5-r0-BWR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wiD-N2-vgv">
+                            <rect key="frame" x="200" y="5" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="record_lensflip_normal.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" image="record_lensflip_disable.png"/>
+                            <state key="highlighted" image="record_lensflip_highlighted.png"/>
+                            <connections>
+                                <action selector="switchAction:" destination="-1" eventType="touchUpInside" id="RX1-Vs-rZE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" id="zHM-B8-QSA">
+                    <rect key="frame" x="0.0" y="40" width="320" height="320"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="usi-Hi-OXl">
+                    <rect key="frame" x="0.0" y="362" width="320" height="167"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gTL-gW-AJo">
+                            <rect key="frame" x="256" y="82" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <state key="normal" image="record_icon_hook_normal.png" backgroundImage="record_icon_hook_normal_bg.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="record_icon_hook_highlighted_bg.png"/>
+                            <state key="highlighted" backgroundImage="record_icon_hook_highlighted_bg.png"/>
+                            <connections>
+                                <action selector="saveAction:" destination="-1" eventType="touchUpInside" id="qdA-j0-86d"/>
+                            </connections>
+                        </button>
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_longvideo_btn_shoot.png" id="b4S-yi-Jjq">
+                            <rect key="frame" x="120" y="67" width="80" height="80"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="record_close_disable.png" width="35" height="35"/>
+        <image name="record_close_highlighted.png" width="35" height="35"/>
+        <image name="record_close_normal.png" width="35" height="35"/>
+        <image name="record_flashlight_disable.png" width="30" height="30"/>
+        <image name="record_flashlight_highlighted.png" width="30" height="30"/>
+        <image name="record_flashlight_normal.png" width="30" height="30"/>
+        <image name="record_icon_hook_highlighted_bg.png" width="50" height="50"/>
+        <image name="record_icon_hook_normal.png" width="50" height="50"/>
+        <image name="record_icon_hook_normal_bg.png" width="50" height="50"/>
+        <image name="record_lensflip_disable.png" width="35" height="35"/>
+        <image name="record_lensflip_highlighted.png" width="35" height="35"/>
+        <image name="record_lensflip_normal.png" width="35" height="35"/>
+        <image name="video_longvideo_btn_shoot.png" width="80" height="80"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="U6g-Fi-5wq">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Drama View Controller-->
+        <scene sceneID="sBc-4y-MTt">
+            <objects>
+                <viewController restorationIdentifier="Drama.storyboardId" storyboardIdentifier="Drama.storyboardId" id="U6g-Fi-5wq" customClass="PDramaViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MNT-lN-jbH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="gAZ-AO-8Ny" kind="push" identifier="PDRAMAVC_TO_PDRAMADETAILVC" id="LZx-7Q-8d3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BpJ-uf-aSR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123" y="470.99999999999989"/>
+        </scene>
+        <!--Drama Detail View Controller-->
+        <scene sceneID="d4J-FL-31B">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="gAZ-AO-8Ny" customClass="PDramaDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pvR-yY-0sd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" id="P4a-DA-L1z">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="222"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="rLG-bn-1dA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="separatorColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexBackgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="gAZ-AO-8Ny" id="Hjw-XN-JRA"/>
+                                    <outlet property="delegate" destination="gAZ-AO-8Ny" id="RVk-rE-Tnp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                    </view>
+                    <navigationItem key="navigationItem" id="Uu5-U2-ukr"/>
+                    <connections>
+                        <outlet property="dramaDetailTableView" destination="rLG-bn-1dA" id="MWE-o2-Xke"/>
+                        <outlet property="dramaHeadView" destination="P4a-DA-L1z" id="IvA-BO-WUh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jgA-g0-fhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="610" y="470"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

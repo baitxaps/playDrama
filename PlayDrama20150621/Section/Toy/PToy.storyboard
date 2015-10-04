@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="lDt-FS-5mg">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Toy View Controller-->
+        <scene sceneID="WNY-VT-8za">
+            <objects>
+                <viewController id="lDt-FS-5mg" customClass="PToyViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KSl-mn-hGj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="cpd-i9-qNu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.72156862745098038" green="0.72941176470588232" blue="0.73333333333333328" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="4VK-iI-rW4">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toy_BG.png" id="464-6S-YuD">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <segue destination="C4s-fu-5Fp" kind="push" identifier="PTOYDETAIL" id="klG-2D-sWT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1O8-IQ-rpB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="249"/>
+        </scene>
+        <!--Toy Detail View Controller-->
+        <scene sceneID="md0-yT-ul3">
+            <objects>
+                <viewController storyboardIdentifier="toyDetailID" hidesBottomBarWhenPushed="YES" id="C4s-fu-5Fp" customClass="PToyDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MF9-m8-uGy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="vCD-MT-7ax" userLabel="商品内容">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="391"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="法拉利超级跑车" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fah-FW-BMe">
+                                        <rect key="frame" x="15" y="11" width="136" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IPW-0Y-x40" userLabel="收藏">
+                                        <rect key="frame" x="278.99999976333447" y="8" width="26" height="26"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                        <state key="normal" image="collection_up.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="selected" image="collection_down.png"/>
+                                        <connections>
+                                            <action selector="collectionAction:" destination="C4s-fu-5Fp" eventType="touchUpInside" id="29D-5J-Kub"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看详情" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XOm-lW-Hjv">
+                                        <rect key="frame" x="15" y="39" width="66" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" red="1" green="0.056961300893460187" blue="0.11955581788050484" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="x1G-C4-64j">
+                                        <rect key="frame" x="81" y="36" width="27" height="27"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="toydetail_down.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="showContentAction:" destination="C4s-fu-5Fp" eventType="touchUpInside" id="TSs-Dj-0HQ"/>
+                                        </connections>
+                                    </button>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="q09-S1-wUC">
+                                        <rect key="frame" x="15" y="64" width="289.99999976333447" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" id="CEc-SK-S9V" customClass="RTLabel">
+                                                <rect key="frame" x="9" y="7" width="269.99999976333447" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                    </scrollView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" id="hmS-FZ-q0q" userLabel="购买">
+                                <rect key="frame" x="0.0" y="391" width="320" height="176"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ieg-a1-kzQ" userLabel="价格">
+                                        <rect key="frame" x="15" y="109" width="82" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <state key="normal" title="70000" image="coin_up.png">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RNM-Bg-DgQ" userLabel="购买">
+                                        <rect key="frame" x="245" y="98" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                        <state key="normal" image="auction_up.png">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buyProductAction:" destination="C4s-fu-5Fp" eventType="touchUpInside" id="lp1-nV-Dte"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.png" id="4Xj-gc-1Qo">
+                                <rect key="frame" x="0.0" y="299" width="320" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RpW-fs-L3O"/>
+                    <connections>
+                        <outlet property="buyProductView" destination="hmS-FZ-q0q" id="KqQ-za-TSv"/>
+                        <outlet property="collectionBtn" destination="IPW-0Y-x40" id="r70-PT-M56"/>
+                        <outlet property="pToyScrollView" destination="q09-S1-wUC" id="wor-J2-QPj"/>
+                        <outlet property="priceBtn" destination="ieg-a1-kzQ" id="bKN-4i-fpt"/>
+                        <outlet property="productDetailView" destination="vCD-MT-7ax" id="Lr7-Qy-uHg"/>
+                        <outlet property="productImageView" destination="4Xj-gc-1Qo" id="0fu-yv-Rum"/>
+                        <outlet property="productNameLabel" destination="fah-FW-BMe" id="7zg-9E-pV1"/>
+                        <outlet property="rtLabel" destination="CEc-SK-S9V" id="hex-ri-PiG"/>
+                        <outlet property="showDtailBtn" destination="x1G-C4-64j" id="iPj-rZ-O0a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="492-VF-DVp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="624" y="342"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2.png" width="146" height="178"/>
+        <image name="auction_up.png" width="59" height="59"/>
+        <image name="coin_up.png" width="14" height="22"/>
+        <image name="collection_down.png" width="26" height="26"/>
+        <image name="collection_up.png" width="26" height="26"/>
+        <image name="toy_BG.png" width="640" height="820"/>
+        <image name="toydetail_down.png" width="13" height="13"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
