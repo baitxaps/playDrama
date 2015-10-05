@@ -2,9 +2,6 @@
 //  GCD.h
 //  GCD
 //
-//  http://home.cnblogs.com/u/YouXianMing/
-//  https://github.com/YouXianMing
-//
 //  Created by hairong.chen on 15/7/21.
 //  Copyright (c) 2015年 times. All rights reserved.
 //
@@ -28,4 +25,8 @@ GCDExecuteOnce(^{
 });
 
 #endif
+
+
+
+
 
