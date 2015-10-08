@@ -13,7 +13,7 @@ Create a  no fast forward
 ![image](https://github.com/baitxaps/playDrama/blob/master/PlayDrama20150621/screenshot/movielist.png)
 
 影片播放
-![image](https://github.com/baitxaps/playDrama/blob/master/PlayDrama20150621/screenshot/ovienormal.png.png)
+![image](https://github.com/baitxaps/playDrama/blob/master/PlayDrama20150621/screenshot/movienormal.png)
 ![image](https://github.com/baitxaps/playDrama/blob/master/PlayDrama20150621/screenshot/moviefullscreen.png)
 
 投票
