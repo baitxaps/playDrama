@@ -22,6 +22,28 @@
 		771868951B43D5F300CFE197 /* PBeautyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 771868921B43D5F300CFE197 /* PBeautyCollectionCell.m */; };
 		771868961B43D5F300CFE197 /* PBeautyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771868931B43D5F300CFE197 /* PBeautyCollectionCell.xib */; };
 		771868971B43D5F300CFE197 /* PBeautyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771868931B43D5F300CFE197 /* PBeautyCollectionCell.xib */; };
+		7728F1411BC66FDA0067F9F6 /* dramaselector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F12A1BC66FDA0067F9F6 /* dramaselector@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1421BC66FDA0067F9F6 /* fullScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F12B1BC66FDA0067F9F6 /* fullScreen@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1431BC66FDA0067F9F6 /* lockBG_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F12C1BC66FDA0067F9F6 /* lockBG_down@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1441BC66FDA0067F9F6 /* lockBG_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F12D1BC66FDA0067F9F6 /* lockBG_up@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1451BC66FDA0067F9F6 /* Optiona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F12E1BC66FDA0067F9F6 /* Optiona@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1461BC66FDA0067F9F6 /* Optionb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F12F1BC66FDA0067F9F6 /* Optionb@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1471BC66FDA0067F9F6 /* playback_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1301BC66FDA0067F9F6 /* playback_pause.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1481BC66FDA0067F9F6 /* playback_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1311BC66FDA0067F9F6 /* playback_pause@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1491BC66FDA0067F9F6 /* playback_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1321BC66FDA0067F9F6 /* playback_play.png */; settings = {ASSET_TAGS = (); }; };
+		7728F14A1BC66FDA0067F9F6 /* playback_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1331BC66FDA0067F9F6 /* playback_play@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F14B1BC66FDA0067F9F6 /* playBtBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1341BC66FDA0067F9F6 /* playBtBG@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F14C1BC66FDA0067F9F6 /* sliderthumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1351BC66FDA0067F9F6 /* sliderthumb.png */; settings = {ASSET_TAGS = (); }; };
+		7728F14D1BC66FDA0067F9F6 /* sliderthumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1361BC66FDA0067F9F6 /* sliderthumb@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F14E1BC66FDA0067F9F6 /* movieBackward.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1381BC66FDA0067F9F6 /* movieBackward.png */; settings = {ASSET_TAGS = (); }; };
+		7728F14F1BC66FDA0067F9F6 /* movieBackward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1391BC66FDA0067F9F6 /* movieBackward@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1501BC66FDA0067F9F6 /* movieBackwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F13A1BC66FDA0067F9F6 /* movieBackwardSelected.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1511BC66FDA0067F9F6 /* movieBackwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F13B1BC66FDA0067F9F6 /* movieBackwardSelected@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1521BC66FDA0067F9F6 /* movieEndFullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F13C1BC66FDA0067F9F6 /* movieEndFullscreen.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1531BC66FDA0067F9F6 /* movieEndFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F13D1BC66FDA0067F9F6 /* movieEndFullscreen@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1541BC66FDA0067F9F6 /* movieForward.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F13E1BC66FDA0067F9F6 /* movieForward.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1551BC66FDA0067F9F6 /* movieForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F13F1BC66FDA0067F9F6 /* movieForward@2x.png */; settings = {ASSET_TAGS = (); }; };
+		7728F1561BC66FDA0067F9F6 /* movieForwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7728F1401BC66FDA0067F9F6 /* movieForwardSelected.png */; settings = {ASSET_TAGS = (); }; };
 		7740E8211B7DC9470070D813 /* KxAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740E80E1B7DC9470070D813 /* KxAudioManager.m */; };
 		7740E8221B7DC9470070D813 /* KxMovieDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740E8111B7DC9470070D813 /* KxMovieDecoder.m */; };
 		7740E8231B7DC9470070D813 /* KxMovieGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7740E8131B7DC9470070D813 /* KxMovieGLView.m */; };
@@ -248,18 +270,10 @@
 		779198B51B5F95150099796F /* PVoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779198B41B5F95150099796F /* PVoteView.xib */; };
 		779198B91B5FACC70099796F /* PVoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 779198B71B5FACC70099796F /* PVoteTableViewCell.m */; };
 		779198BA1B5FACC70099796F /* PVoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779198B81B5FACC70099796F /* PVoteTableViewCell.xib */; };
-		7792AADB1B4A2EBF0037BBDD /* Optionb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7792AADA1B4A2EBF0037BBDD /* Optionb@2x.png */; };
-		7792AADC1B4A2EBF0037BBDD /* Optionb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7792AADA1B4A2EBF0037BBDD /* Optionb@2x.png */; };
-		7792AADE1B4A2F2D0037BBDD /* Optiona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7792AADD1B4A2F2D0037BBDD /* Optiona@2x.png */; };
-		7792AADF1B4A2F2D0037BBDD /* Optiona@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7792AADD1B4A2F2D0037BBDD /* Optiona@2x.png */; };
 		779E7CD21B45265A00951527 /* PBeautyDetailResumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 779E7CD01B45265A00951527 /* PBeautyDetailResumeCell.m */; };
 		779E7CD31B45265A00951527 /* PBeautyDetailResumeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 779E7CD01B45265A00951527 /* PBeautyDetailResumeCell.m */; };
 		779E7CD41B45265A00951527 /* PBeautyDetailResumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779E7CD11B45265A00951527 /* PBeautyDetailResumeCell.xib */; };
 		779E7CD51B45265A00951527 /* PBeautyDetailResumeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779E7CD11B45265A00951527 /* PBeautyDetailResumeCell.xib */; };
-		77A26D351B4F7451006369F5 /* sliderthumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A26D331B4F7451006369F5 /* sliderthumb.png */; };
-		77A26D361B4F7451006369F5 /* sliderthumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A26D331B4F7451006369F5 /* sliderthumb.png */; };
-		77A26D371B4F7451006369F5 /* sliderthumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A26D341B4F7451006369F5 /* sliderthumb@2x.png */; };
-		77A26D381B4F7451006369F5 /* sliderthumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A26D341B4F7451006369F5 /* sliderthumb@2x.png */; };
 		77A376811BB2884F00F9C41F /* PSystemSettingScreenLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A376801BB2884F00F9C41F /* PSystemSettingScreenLock.m */; settings = {ASSET_TAGS = (); }; };
 		77A376C61BB28EBD00F9C41F /* 包@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A376831BB28EBD00F9C41F /* 包@2x.png */; settings = {ASSET_TAGS = (); }; };
 		77A376C71BB28EBD00F9C41F /* 包@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A376841BB28EBD00F9C41F /* 包@3x.png */; settings = {ASSET_TAGS = (); }; };
@@ -591,24 +605,6 @@
 		CFA794181AF4EF5800E56796 /* PShareToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA794151AF4EF5800E56796 /* PShareToolsView.m */; };
 		CFA794191AF4EF5800E56796 /* PShareToolsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA794161AF4EF5800E56796 /* PShareToolsView.xib */; };
 		CFA7941A1AF4EF5800E56796 /* PShareToolsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA794161AF4EF5800E56796 /* PShareToolsView.xib */; };
-		CFA7942C1AF4EF9600E56796 /* movieBackward.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794231AF4EF9600E56796 /* movieBackward.png */; };
-		CFA7942D1AF4EF9600E56796 /* movieBackward.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794231AF4EF9600E56796 /* movieBackward.png */; };
-		CFA7942E1AF4EF9600E56796 /* movieBackward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794241AF4EF9600E56796 /* movieBackward@2x.png */; };
-		CFA7942F1AF4EF9600E56796 /* movieBackward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794241AF4EF9600E56796 /* movieBackward@2x.png */; };
-		CFA794301AF4EF9600E56796 /* movieBackwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794251AF4EF9600E56796 /* movieBackwardSelected.png */; };
-		CFA794311AF4EF9600E56796 /* movieBackwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794251AF4EF9600E56796 /* movieBackwardSelected.png */; };
-		CFA794321AF4EF9600E56796 /* movieBackwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794261AF4EF9600E56796 /* movieBackwardSelected@2x.png */; };
-		CFA794331AF4EF9600E56796 /* movieBackwardSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794261AF4EF9600E56796 /* movieBackwardSelected@2x.png */; };
-		CFA794341AF4EF9600E56796 /* movieEndFullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794271AF4EF9600E56796 /* movieEndFullscreen.png */; };
-		CFA794351AF4EF9600E56796 /* movieEndFullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794271AF4EF9600E56796 /* movieEndFullscreen.png */; };
-		CFA794361AF4EF9600E56796 /* movieEndFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794281AF4EF9600E56796 /* movieEndFullscreen@2x.png */; };
-		CFA794371AF4EF9600E56796 /* movieEndFullscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794281AF4EF9600E56796 /* movieEndFullscreen@2x.png */; };
-		CFA794381AF4EF9600E56796 /* movieForward.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794291AF4EF9600E56796 /* movieForward.png */; };
-		CFA794391AF4EF9600E56796 /* movieForward.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA794291AF4EF9600E56796 /* movieForward.png */; };
-		CFA7943A1AF4EF9600E56796 /* movieForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA7942A1AF4EF9600E56796 /* movieForward@2x.png */; };
-		CFA7943B1AF4EF9600E56796 /* movieForward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA7942A1AF4EF9600E56796 /* movieForward@2x.png */; };
-		CFA7943C1AF4EF9600E56796 /* movieForwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA7942B1AF4EF9600E56796 /* movieForwardSelected.png */; };
-		CFA7943D1AF4EF9600E56796 /* movieForwardSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA7942B1AF4EF9600E56796 /* movieForwardSelected.png */; };
 		CFA794521AF4F06D00E56796 /* PCustomerBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA794501AF4F06D00E56796 /* PCustomerBottomBar.m */; };
 		CFA794531AF4F06D00E56796 /* PCustomerBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA794501AF4F06D00E56796 /* PCustomerBottomBar.m */; };
 		CFA794541AF4F06D00E56796 /* PCustomerBottomBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA794511AF4F06D00E56796 /* PCustomerBottomBar.xib */; };
@@ -665,24 +661,6 @@
 		CFC9DD661AE1387500AE8E21 /* PResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC9DD531AE1387500AE8E21 /* PResetPasswordViewController.m */; };
 		CFC9DD671AE1387500AE8E21 /* PResetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC9DD541AE1387500AE8E21 /* PResetPasswordViewController.xib */; };
 		CFC9DD681AE1387500AE8E21 /* PResetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC9DD541AE1387500AE8E21 /* PResetPasswordViewController.xib */; };
-		CFF47DEA1B19A66A00FD29E1 /* dramaselector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DDF1B19A66A00FD29E1 /* dramaselector@2x.png */; };
-		CFF47DEB1B19A66A00FD29E1 /* dramaselector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DDF1B19A66A00FD29E1 /* dramaselector@2x.png */; };
-		CFF47DEC1B19A66A00FD29E1 /* fullScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE01B19A66A00FD29E1 /* fullScreen@2x.png */; };
-		CFF47DED1B19A66A00FD29E1 /* fullScreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE01B19A66A00FD29E1 /* fullScreen@2x.png */; };
-		CFF47DEE1B19A66A00FD29E1 /* lockBG_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE11B19A66A00FD29E1 /* lockBG_down@2x.png */; };
-		CFF47DEF1B19A66A00FD29E1 /* lockBG_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE11B19A66A00FD29E1 /* lockBG_down@2x.png */; };
-		CFF47DF01B19A66A00FD29E1 /* lockBG_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE21B19A66A00FD29E1 /* lockBG_up@2x.png */; };
-		CFF47DF11B19A66A00FD29E1 /* lockBG_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE21B19A66A00FD29E1 /* lockBG_up@2x.png */; };
-		CFF47DF21B19A66A00FD29E1 /* playback_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE31B19A66A00FD29E1 /* playback_pause.png */; };
-		CFF47DF31B19A66A00FD29E1 /* playback_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE31B19A66A00FD29E1 /* playback_pause.png */; };
-		CFF47DF41B19A66A00FD29E1 /* playback_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE41B19A66A00FD29E1 /* playback_pause@2x.png */; };
-		CFF47DF51B19A66A00FD29E1 /* playback_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE41B19A66A00FD29E1 /* playback_pause@2x.png */; };
-		CFF47DF61B19A66A00FD29E1 /* playback_play.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE51B19A66A00FD29E1 /* playback_play.png */; };
-		CFF47DF71B19A66A00FD29E1 /* playback_play.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE51B19A66A00FD29E1 /* playback_play.png */; };
-		CFF47DF81B19A66A00FD29E1 /* playback_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE61B19A66A00FD29E1 /* playback_play@2x.png */; };
-		CFF47DF91B19A66A00FD29E1 /* playback_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE61B19A66A00FD29E1 /* playback_play@2x.png */; };
-		CFF47DFA1B19A66A00FD29E1 /* playBtBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE71B19A66A00FD29E1 /* playBtBG@2x.png */; };
-		CFF47DFB1B19A66A00FD29E1 /* playBtBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CFF47DE71B19A66A00FD29E1 /* playBtBG@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -710,6 +688,28 @@
 		771868911B43D5F300CFE197 /* PBeautyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBeautyCollectionCell.h; sourceTree = "<group>"; };
 		771868921B43D5F300CFE197 /* PBeautyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBeautyCollectionCell.m; sourceTree = "<group>"; };
 		771868931B43D5F300CFE197 /* PBeautyCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBeautyCollectionCell.xib; sourceTree = "<group>"; };
+		7728F12A1BC66FDA0067F9F6 /* dramaselector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dramaselector@2x.png"; sourceTree = "<group>"; };
+		7728F12B1BC66FDA0067F9F6 /* fullScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullScreen@2x.png"; sourceTree = "<group>"; };
+		7728F12C1BC66FDA0067F9F6 /* lockBG_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lockBG_down@2x.png"; sourceTree = "<group>"; };
+		7728F12D1BC66FDA0067F9F6 /* lockBG_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lockBG_up@2x.png"; sourceTree = "<group>"; };
+		7728F12E1BC66FDA0067F9F6 /* Optiona@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Optiona@2x.png"; sourceTree = "<group>"; };
+		7728F12F1BC66FDA0067F9F6 /* Optionb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Optionb@2x.png"; sourceTree = "<group>"; };
+		7728F1301BC66FDA0067F9F6 /* playback_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playback_pause.png; sourceTree = "<group>"; };
+		7728F1311BC66FDA0067F9F6 /* playback_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playback_pause@2x.png"; sourceTree = "<group>"; };
+		7728F1321BC66FDA0067F9F6 /* playback_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playback_play.png; sourceTree = "<group>"; };
+		7728F1331BC66FDA0067F9F6 /* playback_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playback_play@2x.png"; sourceTree = "<group>"; };
+		7728F1341BC66FDA0067F9F6 /* playBtBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtBG@2x.png"; sourceTree = "<group>"; };
+		7728F1351BC66FDA0067F9F6 /* sliderthumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderthumb.png; sourceTree = "<group>"; };
+		7728F1361BC66FDA0067F9F6 /* sliderthumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderthumb@2x.png"; sourceTree = "<group>"; };
+		7728F1381BC66FDA0067F9F6 /* movieBackward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackward.png; sourceTree = "<group>"; };
+		7728F1391BC66FDA0067F9F6 /* movieBackward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackward@2x.png"; sourceTree = "<group>"; };
+		7728F13A1BC66FDA0067F9F6 /* movieBackwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackwardSelected.png; sourceTree = "<group>"; };
+		7728F13B1BC66FDA0067F9F6 /* movieBackwardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackwardSelected@2x.png"; sourceTree = "<group>"; };
+		7728F13C1BC66FDA0067F9F6 /* movieEndFullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieEndFullscreen.png; sourceTree = "<group>"; };
+		7728F13D1BC66FDA0067F9F6 /* movieEndFullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieEndFullscreen@2x.png"; sourceTree = "<group>"; };
+		7728F13E1BC66FDA0067F9F6 /* movieForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForward.png; sourceTree = "<group>"; };
+		7728F13F1BC66FDA0067F9F6 /* movieForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieForward@2x.png"; sourceTree = "<group>"; };
+		7728F1401BC66FDA0067F9F6 /* movieForwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForwardSelected.png; sourceTree = "<group>"; };
 		7740E80D1B7DC9470070D813 /* KxAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManager.h; sourceTree = "<group>"; };
 		7740E80E1B7DC9470070D813 /* KxAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxAudioManager.m; sourceTree = "<group>"; };
 		7740E8101B7DC9470070D813 /* KxMovieDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMovieDecoder.h; sourceTree = "<group>"; };
@@ -1038,13 +1038,9 @@
 		779198B61B5FACC70099796F /* PVoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVoteTableViewCell.h; sourceTree = "<group>"; };
 		779198B71B5FACC70099796F /* PVoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVoteTableViewCell.m; sourceTree = "<group>"; };
 		779198B81B5FACC70099796F /* PVoteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PVoteTableViewCell.xib; sourceTree = "<group>"; };
-		7792AADA1B4A2EBF0037BBDD /* Optionb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Optionb@2x.png"; sourceTree = "<group>"; };
-		7792AADD1B4A2F2D0037BBDD /* Optiona@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Optiona@2x.png"; sourceTree = "<group>"; };
 		779E7CCF1B45265A00951527 /* PBeautyDetailResumeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBeautyDetailResumeCell.h; sourceTree = "<group>"; };
 		779E7CD01B45265A00951527 /* PBeautyDetailResumeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBeautyDetailResumeCell.m; sourceTree = "<group>"; };
 		779E7CD11B45265A00951527 /* PBeautyDetailResumeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBeautyDetailResumeCell.xib; sourceTree = "<group>"; };
-		77A26D331B4F7451006369F5 /* sliderthumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderthumb.png; sourceTree = "<group>"; };
-		77A26D341B4F7451006369F5 /* sliderthumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderthumb@2x.png"; sourceTree = "<group>"; };
 		77A3767F1BB2884F00F9C41F /* PSystemSettingScreenLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSystemSettingScreenLock.h; sourceTree = "<group>"; };
 		77A376801BB2884F00F9C41F /* PSystemSettingScreenLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSystemSettingScreenLock.m; sourceTree = "<group>"; };
 		77A376831BB28EBD00F9C41F /* 包@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "包@2x.png"; sourceTree = "<group>"; };
@@ -1464,15 +1460,6 @@
 		CFA794141AF4EF5800E56796 /* PShareToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PShareToolsView.h; sourceTree = "<group>"; };
 		CFA794151AF4EF5800E56796 /* PShareToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PShareToolsView.m; sourceTree = "<group>"; };
 		CFA794161AF4EF5800E56796 /* PShareToolsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PShareToolsView.xib; sourceTree = "<group>"; };
-		CFA794231AF4EF9600E56796 /* movieBackward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackward.png; sourceTree = "<group>"; };
-		CFA794241AF4EF9600E56796 /* movieBackward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackward@2x.png"; sourceTree = "<group>"; };
-		CFA794251AF4EF9600E56796 /* movieBackwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieBackwardSelected.png; sourceTree = "<group>"; };
-		CFA794261AF4EF9600E56796 /* movieBackwardSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieBackwardSelected@2x.png"; sourceTree = "<group>"; };
-		CFA794271AF4EF9600E56796 /* movieEndFullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieEndFullscreen.png; sourceTree = "<group>"; };
-		CFA794281AF4EF9600E56796 /* movieEndFullscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieEndFullscreen@2x.png"; sourceTree = "<group>"; };
-		CFA794291AF4EF9600E56796 /* movieForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForward.png; sourceTree = "<group>"; };
-		CFA7942A1AF4EF9600E56796 /* movieForward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "movieForward@2x.png"; sourceTree = "<group>"; };
-		CFA7942B1AF4EF9600E56796 /* movieForwardSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movieForwardSelected.png; sourceTree = "<group>"; };
 		CFA7944F1AF4F06D00E56796 /* PCustomerBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCustomerBottomBar.h; sourceTree = "<group>"; };
 		CFA794501AF4F06D00E56796 /* PCustomerBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCustomerBottomBar.m; sourceTree = "<group>"; };
 		CFA794511AF4F06D00E56796 /* PCustomerBottomBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PCustomerBottomBar.xib; sourceTree = "<group>"; };
@@ -1512,15 +1499,6 @@
 		CFC9DD521AE1387500AE8E21 /* PResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PResetPasswordViewController.h; sourceTree = "<group>"; };
 		CFC9DD531AE1387500AE8E21 /* PResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PResetPasswordViewController.m; sourceTree = "<group>"; };
 		CFC9DD541AE1387500AE8E21 /* PResetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PResetPasswordViewController.xib; sourceTree = "<group>"; };
-		CFF47DDF1B19A66A00FD29E1 /* dramaselector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dramaselector@2x.png"; sourceTree = "<group>"; };
-		CFF47DE01B19A66A00FD29E1 /* fullScreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullScreen@2x.png"; sourceTree = "<group>"; };
-		CFF47DE11B19A66A00FD29E1 /* lockBG_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lockBG_down@2x.png"; sourceTree = "<group>"; };
-		CFF47DE21B19A66A00FD29E1 /* lockBG_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lockBG_up@2x.png"; sourceTree = "<group>"; };
-		CFF47DE31B19A66A00FD29E1 /* playback_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playback_pause.png; sourceTree = "<group>"; };
-		CFF47DE41B19A66A00FD29E1 /* playback_pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playback_pause@2x.png"; sourceTree = "<group>"; };
-		CFF47DE51B19A66A00FD29E1 /* playback_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playback_play.png; sourceTree = "<group>"; };
-		CFF47DE61B19A66A00FD29E1 /* playback_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playback_play@2x.png"; sourceTree = "<group>"; };
-		CFF47DE71B19A66A00FD29E1 /* playBtBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playBtBG@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1580,6 +1558,51 @@
 				777EFBEA1B787B470036FBBF /* PBeautyDetailPresentCell.xib */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		7728F1281BC66FDA0067F9F6 /* movieplayer */ = {
+			isa = PBXGroup;
+			children = (
+				7728F1291BC66FDA0067F9F6 /* ffmpegplayer */,
+				7728F1371BC66FDA0067F9F6 /* mpmovieplayer */,
+			);
+			path = movieplayer;
+			sourceTree = "<group>";
+		};
+		7728F1291BC66FDA0067F9F6 /* ffmpegplayer */ = {
+			isa = PBXGroup;
+			children = (
+				7728F12A1BC66FDA0067F9F6 /* dramaselector@2x.png */,
+				7728F12B1BC66FDA0067F9F6 /* fullScreen@2x.png */,
+				7728F12C1BC66FDA0067F9F6 /* lockBG_down@2x.png */,
+				7728F12D1BC66FDA0067F9F6 /* lockBG_up@2x.png */,
+				7728F12E1BC66FDA0067F9F6 /* Optiona@2x.png */,
+				7728F12F1BC66FDA0067F9F6 /* Optionb@2x.png */,
+				7728F1301BC66FDA0067F9F6 /* playback_pause.png */,
+				7728F1311BC66FDA0067F9F6 /* playback_pause@2x.png */,
+				7728F1321BC66FDA0067F9F6 /* playback_play.png */,
+				7728F1331BC66FDA0067F9F6 /* playback_play@2x.png */,
+				7728F1341BC66FDA0067F9F6 /* playBtBG@2x.png */,
+				7728F1351BC66FDA0067F9F6 /* sliderthumb.png */,
+				7728F1361BC66FDA0067F9F6 /* sliderthumb@2x.png */,
+			);
+			path = ffmpegplayer;
+			sourceTree = "<group>";
+		};
+		7728F1371BC66FDA0067F9F6 /* mpmovieplayer */ = {
+			isa = PBXGroup;
+			children = (
+				7728F1381BC66FDA0067F9F6 /* movieBackward.png */,
+				7728F1391BC66FDA0067F9F6 /* movieBackward@2x.png */,
+				7728F13A1BC66FDA0067F9F6 /* movieBackwardSelected.png */,
+				7728F13B1BC66FDA0067F9F6 /* movieBackwardSelected@2x.png */,
+				7728F13C1BC66FDA0067F9F6 /* movieEndFullscreen.png */,
+				7728F13D1BC66FDA0067F9F6 /* movieEndFullscreen@2x.png */,
+				7728F13E1BC66FDA0067F9F6 /* movieForward.png */,
+				7728F13F1BC66FDA0067F9F6 /* movieForward@2x.png */,
+				7728F1401BC66FDA0067F9F6 /* movieForwardSelected.png */,
+			);
+			path = mpmovieplayer;
 			sourceTree = "<group>";
 		};
 		7740E8051B7DA7940070D813 /* CocoaAsyncSocket */ = {
@@ -2672,11 +2695,10 @@
 		CF8B1DDA1ABAF88D0024FCAC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7728F1281BC66FDA0067F9F6 /* movieplayer */,
 				77A376821BB28E7700F9C41F /* tempImages */,
 				77693BC21B73390200F4582C /* videocapture */,
 				77B08D841B54BA9300100FD2 /* tabBar */,
-				CFF47DDE1B19A66A00FD29E1 /* pkxmovieplayer */,
-				CFA794221AF4EF9600E56796 /* movieplayer */,
 				CFC9DD251AE135AC00AE8E21 /* beauty */,
 				CFC9DD261AE135AC00AE8E21 /* bill */,
 				CFC9DD271AE135AC00AE8E21 /* drama */,
@@ -2933,22 +2955,6 @@
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
-		CFA794221AF4EF9600E56796 /* movieplayer */ = {
-			isa = PBXGroup;
-			children = (
-				CFA794231AF4EF9600E56796 /* movieBackward.png */,
-				CFA794241AF4EF9600E56796 /* movieBackward@2x.png */,
-				CFA794251AF4EF9600E56796 /* movieBackwardSelected.png */,
-				CFA794261AF4EF9600E56796 /* movieBackwardSelected@2x.png */,
-				CFA794271AF4EF9600E56796 /* movieEndFullscreen.png */,
-				CFA794281AF4EF9600E56796 /* movieEndFullscreen@2x.png */,
-				CFA794291AF4EF9600E56796 /* movieForward.png */,
-				CFA7942A1AF4EF9600E56796 /* movieForward@2x.png */,
-				CFA7942B1AF4EF9600E56796 /* movieForwardSelected.png */,
-			);
-			path = movieplayer;
-			sourceTree = "<group>";
-		};
 		CFC9DCC01AE12CFF00AE8E21 /* Drama */ = {
 			isa = PBXGroup;
 			children = (
@@ -3087,26 +3093,6 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		CFF47DDE1B19A66A00FD29E1 /* pkxmovieplayer */ = {
-			isa = PBXGroup;
-			children = (
-				77A26D331B4F7451006369F5 /* sliderthumb.png */,
-				77A26D341B4F7451006369F5 /* sliderthumb@2x.png */,
-				7792AADA1B4A2EBF0037BBDD /* Optionb@2x.png */,
-				7792AADD1B4A2F2D0037BBDD /* Optiona@2x.png */,
-				CFF47DDF1B19A66A00FD29E1 /* dramaselector@2x.png */,
-				CFF47DE01B19A66A00FD29E1 /* fullScreen@2x.png */,
-				CFF47DE11B19A66A00FD29E1 /* lockBG_down@2x.png */,
-				CFF47DE21B19A66A00FD29E1 /* lockBG_up@2x.png */,
-				CFF47DE31B19A66A00FD29E1 /* playback_pause.png */,
-				CFF47DE41B19A66A00FD29E1 /* playback_pause@2x.png */,
-				CFF47DE51B19A66A00FD29E1 /* playback_play.png */,
-				CFF47DE61B19A66A00FD29E1 /* playback_play@2x.png */,
-				CFF47DE71B19A66A00FD29E1 /* playBtBG@2x.png */,
-			);
-			path = pkxmovieplayer;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3188,11 +3174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7728F14F1BC66FDA0067F9F6 /* movieBackward@2x.png in Resources */,
 				7756B7AA1B71E6CF00056569 /* playme_rightarrow@2x.png in Resources */,
 				77A376DF1BB28EBD00F9C41F /* 明星图片5@3x.png in Resources */,
 				CF7E48071AC1BF9800E9572E /* loading19.png in Resources */,
 				77693C291B73391F00F4582C /* record_lensflip_disable.png in Resources */,
 				77A376F61BB28EBD00F9C41F /* 玩票图片4@3x.png in Resources */,
+				7728F1521BC66FDA0067F9F6 /* movieEndFullscreen.png in Resources */,
 				77A376EC1BB28EBD00F9C41F /* 手表2@3x.png in Resources */,
 				CF7E47E11AC1BE0400E9572E /* loading3.png in Resources */,
 				77A377031BB28EBD00F9C41F /* 香水@2x.png in Resources */,
@@ -3201,9 +3189,9 @@
 				7775FE531B5610BB00E172BA /* ptsaction@2x.png in Resources */,
 				77F61DBC1B56408B00A5C53C /* PAuctionInfoCell.xib in Resources */,
 				77A376E51BB28EBD00F9C41F /* 全城戒备@2x.png in Resources */,
-				CFF47DF41B19A66A00FD29E1 /* playback_pause@2x.png in Resources */,
 				CFC9DD051AE12E3600AE8E21 /* password@2x.png in Resources */,
 				77A376CA1BB28EBD00F9C41F /* 绯闻女孩@2x.png in Resources */,
+				7728F1471BC66FDA0067F9F6 /* playback_pause.png in Resources */,
 				CF7E47E71AC1BE0400E9572E /* loading6.png in Resources */,
 				777EFBF91B7884330036FBBF /* beautyBarComments_down@2x.png in Resources */,
 				CF0CB09E1AD7F4260095FA9C /* playdrama_welcome@2x.png in Resources */,
@@ -3223,9 +3211,11 @@
 				CF7E47ED1AC1BE0400E9572E /* loading9.png in Resources */,
 				770E13F11BA7CD5D00FBB1AF /* QQ_friends@2x.png in Resources */,
 				770E13ED1BA7CD5D00FBB1AF /* wechat_circle@2x.png in Resources */,
+				7728F1551BC66FDA0067F9F6 /* movieForward@2x.png in Resources */,
 				77C9CA331B9D26B400DE2267 /* tabbar_dramaBg@2x.png in Resources */,
 				77A377081BB28EBD00F9C41F /* 指环王@3x.png in Resources */,
 				77C9CA351B9D26B400DE2267 /* tabbar_ticketBg@2x.png in Resources */,
+				7728F1481BC66FDA0067F9F6 /* playback_pause@2x.png in Resources */,
 				77A376E81BB28EBD00F9C41F /* 商品详情-车@3x.png in Resources */,
 				777CD1671B9694AB00B66947 /* CapturePlayViewController.xib in Resources */,
 				77B08D8E1B54BAA900100FD2 /* tabbar_beauty_sel@2x.png in Resources */,
@@ -3237,7 +3227,6 @@
 				77A376F21BB28EBD00F9C41F /* 玩票图片2@3x.png in Resources */,
 				777EFBFF1B7884330036FBBF /* beautyBarLike_up@2x.png in Resources */,
 				77693C1C1B73391F00F4582C /* record_focus_highlighted@2x.png in Resources */,
-				CFF47DF81B19A66A00FD29E1 /* playback_play@2x.png in Resources */,
 				77693C271B73391F00F4582C /* record_icon_hook.png in Resources */,
 				77693C3B1B73391F00F4582C /* vedio_nav_btn_back_pre.png in Resources */,
 				77A376CB1BB28EBD00F9C41F /* 绯闻女孩@3x.png in Resources */,
@@ -3252,6 +3241,7 @@
 				7752F2EB1B70B78700AA0C3A /* PMeCellHeadView.xib in Resources */,
 				77693C381B73391F00F4582C /* touch_focus_not@2x.png in Resources */,
 				779198AC1B5F3A100099796F /* castbill@2x.png in Resources */,
+				7728F1491BC66FDA0067F9F6 /* playback_play.png in Resources */,
 				CFA794541AF4F06D00E56796 /* PCustomerBottomBar.xib in Resources */,
 				777EFBFD1B7884330036FBBF /* beautyBarLike_donw@3x.png in Resources */,
 				777EFBDE1B7850270036FBBF /* beautyPresent@3x..png in Resources */,
@@ -3260,23 +3250,19 @@
 				777EFBDA1B7850270036FBBF /* beautyLast@3x.png in Resources */,
 				77693C321B73391F00F4582C /* record_tool_disable@2x.png in Resources */,
 				777EFC001B7884330036FBBF /* beautyBarLike_up@3x.png in Resources */,
-				CFF47DEC1B19A66A00FD29E1 /* fullScreen@2x.png in Resources */,
 				77A376F81BB28EBD00F9C41F /* 玩票图片5@3x.png in Resources */,
 				777EFC031B7884330036FBBF /* beautyBarPresent_up@2x.png in Resources */,
 				CF9B8E991AD69CEF001B00FC /* MJRefresh.bundle in Resources */,
 				777EFC041B7884330036FBBF /* beautyBarPresent_up@3x.png in Resources */,
 				77C9CA8A1B9D2EA300DE2267 /* drama_cell_play@3x.png in Resources */,
 				779198A91B5F3A100099796F /* rolehead@2x.png in Resources */,
-				7792AADB1B4A2EBF0037BBDD /* Optionb@2x.png in Resources */,
 				77A376DE1BB28EBD00F9C41F /* 明星图片5@2x.png in Resources */,
 				CF7E47D11AC1BE0400E9572E /* loading1.png in Resources */,
 				77A376EA1BB28EBD00F9C41F /* 手表1@3x.png in Resources */,
 				CFC9DD091AE12E3600AE8E21 /* ploginClose@2x.png in Resources */,
 				77693C211B73391F00F4582C /* record_icon_hook_highlighted_bg.png in Resources */,
-				CFA7942C1AF4EF9600E56796 /* movieBackward.png in Resources */,
 				77693C411B73391F00F4582C /* video_longvideo_btn_shoot.png in Resources */,
 				CF9B8E861AD69CAF001B00FC /* PSearcherView.xib in Resources */,
-				CFA794361AF4EF9600E56796 /* movieEndFullscreen@2x.png in Resources */,
 				77693C171B73391F00F4582C /* record_flashlight_normal.png in Resources */,
 				77693C351B73391F00F4582C /* record_tool_normal.png in Resources */,
 				770E13F21BA7CD5D00FBB1AF /* QQ_qzone@2x.png in Resources */,
@@ -3288,6 +3274,7 @@
 				77F61DBE1B5663B800A5C53C /* PAuctionInfoHeadCell.xib in Resources */,
 				77693C241B73391F00F4582C /* record_icon_hook_normal_bg@2x.png in Resources */,
 				77693C331B73391F00F4582C /* record_tool_highlighted.png in Resources */,
+				7728F1461BC66FDA0067F9F6 /* Optionb@2x.png in Resources */,
 				CFC9DD0D1AE12E3600AE8E21 /* register_phone@2x.png in Resources */,
 				775957C51B7B59C300889A90 /* drama_collection_up@3x.png in Resources */,
 				77A376FD1BB28EBD00F9C41F /* 我的收藏图片1@2x.png in Resources */,
@@ -3309,25 +3296,24 @@
 				CFC9DD071AE12E3600AE8E21 /* plogin_BG@2x.png in Resources */,
 				77E8BB441B39976000A15EDB /* beautyGirl@2x.png in Resources */,
 				7775FE541B5610BB00E172BA /* pthighestaction@2x.png in Resources */,
-				CFF47DF61B19A66A00FD29E1 /* playback_play.png in Resources */,
 				77A376F71BB28EBD00F9C41F /* 玩票图片5@2x.png in Resources */,
 				77A376CE1BB28EBD00F9C41F /* 礼物箱图片1@2x.png in Resources */,
 				77B08D8F1B54BAA900100FD2 /* tabbar_beauty@2x.png in Resources */,
 				777EFBC81B784D050036FBBF /* beautyLike@2x.png in Resources */,
+				7728F14B1BC66FDA0067F9F6 /* playBtBG@2x.png in Resources */,
 				77693C281B73391F00F4582C /* record_icon_hook@2x.png in Resources */,
 				7775FE511B5610BB00E172BA /* ptcountdown@2x.png in Resources */,
 				77A376DC1BB28EBD00F9C41F /* 明星图片4@2x.png in Resources */,
 				CFC9DD161AE12E4700AE8E21 /* share@2x.png in Resources */,
 				77B08DA91B54EE4D00100FD2 /* toydetail_down@2x.png in Resources */,
 				77693C131B73391F00F4582C /* record_flashlight_disable.png in Resources */,
+				7728F14D1BC66FDA0067F9F6 /* sliderthumb@2x.png in Resources */,
 				77D4CBD51B68E74D00F58461 /* pcomplain@2x.png in Resources */,
 				77693C2A1B73391F00F4582C /* record_lensflip_disable@2x.png in Resources */,
 				777EFBD41B7850270036FBBF /* beautyLike@3x.png in Resources */,
 				77C108281B6F417C002F384F /* PAuctionImageCell.xib in Resources */,
-				CFA794341AF4EF9600E56796 /* movieEndFullscreen.png in Resources */,
 				77693C221B73391F00F4582C /* record_icon_hook_highlighted_bg@2x.png in Resources */,
 				CF677FD51AD8F499009E969D /* pcommon_nav_back@2x.png in Resources */,
-				77A26D351B4F7451006369F5 /* sliderthumb.png in Resources */,
 				CF8B1E2A1ABAF8D70024FCAC /* Images.xcassets in Resources */,
 				777DC1DF1B8D697400D09C2C /* CreateModel.plist in Resources */,
 				77A376E71BB28EBD00F9C41F /* 商品详情-车@2x.png in Resources */,
@@ -3352,17 +3338,17 @@
 				77D4CBD31B68E73600F58461 /* pmodifypassword@2x.png in Resources */,
 				77A376EE1BB28EBD00F9C41F /* 玩票图片0@3x.png in Resources */,
 				77B08D9D1B54E95600100FD2 /* coin_up@2x.png in Resources */,
+				7728F1421BC66FDA0067F9F6 /* fullScreen@2x.png in Resources */,
 				77E8BB281B39941000A15EDB /* PToyCollectionViewCell.xib in Resources */,
 				777EFBE71B785F050036FBBF /* beautyComments@3x.png in Resources */,
 				77693C1B1B73391F00F4582C /* record_focus_highlighted.png in Resources */,
 				7752F2E51B70B23B00AA0C3A /* playme_play@2x.png in Resources */,
+				7728F1411BC66FDA0067F9F6 /* dramaselector@2x.png in Resources */,
 				77A376D51BB28EBD00F9C41F /* 明星图片0@3x.png in Resources */,
 				77693C2D1B73391F00F4582C /* record_lensflip_normal.png in Resources */,
 				CF7E47EB1AC1BE0400E9572E /* loading8.png in Resources */,
 				77B08D941B54BAA900100FD2 /* tabbar_ticket_sel@2x.png in Resources */,
 				77A376D91BB28EBD00F9C41F /* 明星图片2@3x.png in Resources */,
-				CFA794381AF4EF9600E56796 /* movieForward.png in Resources */,
-				CFA7943C1AF4EF9600E56796 /* movieForwardSelected.png in Resources */,
 				775957C91B7B5A3E00889A90 /* drama_collection_up@2x.png in Resources */,
 				775957A91B7B0F1300889A90 /* PDramaDetailMovieInFoCell.xib in Resources */,
 				774C1D0E1B58A95100154296 /* toyDetail_BG.png in Resources */,
@@ -3375,6 +3361,7 @@
 				CFC9DCC61AE12CFF00AE8E21 /* PDrama.storyboard in Resources */,
 				777EFBD71B7850270036FBBF /* beautyIndicator@2x.png in Resources */,
 				77A377041BB28EBD00F9C41F /* 香水@3x.png in Resources */,
+				7728F14A1BC66FDA0067F9F6 /* playback_play@2x.png in Resources */,
 				779198AB1B5F3A100099796F /* finger@2x.png in Resources */,
 				77693C111B73391F00F4582C /* record_deletesure_normal.png in Resources */,
 				77E8BB191B39935A00A15EDB /* toy_BG.png in Resources */,
@@ -3384,15 +3371,12 @@
 				77A376FB1BB28EBD00F9C41F /* 我的收藏图片0@2x.png in Resources */,
 				77A376F11BB28EBD00F9C41F /* 玩票图片2@2x.png in Resources */,
 				CF0CB0A11AD7F4340095FA9C /* drama_search@2x.png in Resources */,
-				CFA794321AF4EF9600E56796 /* movieBackwardSelected@2x.png in Resources */,
 				77C108231B6F415C002F384F /* PAuctionHeadCell.xib in Resources */,
 				77D4CBD71B68E77400F58461 /* playmeLevel@2x.png in Resources */,
-				CFA7943A1AF4EF9600E56796 /* movieForward@2x.png in Resources */,
 				77C8B9081B8C187000EFBF64 /* WeiboSDK.bundle in Resources */,
 				77693C181B73391F00F4582C /* record_flashlight_normal@2x.png in Resources */,
 				771868961B43D5F300CFE197 /* PBeautyCollectionCell.xib in Resources */,
 				77A376DB1BB28EBD00F9C41F /* 明星图片3@3x.png in Resources */,
-				CFF47DEA1B19A66A00FD29E1 /* dramaselector@2x.png in Resources */,
 				77A376CC1BB28EBD00F9C41F /* 礼物箱图片0@2x.png in Resources */,
 				CF7E47961AC1BDCD00E9572E /* PProgressHUB.xib in Resources */,
 				774C1D0A1B5898BA00154296 /* PBillDetailHeadCell.xib in Resources */,
@@ -3405,13 +3389,12 @@
 				7752F2DC1B70A37F00AA0C3A /* playme_collection@2x.png in Resources */,
 				77693C371B73391F00F4582C /* touch_focus_not.png in Resources */,
 				77693C301B73391F00F4582C /* record_progressbar_front@2x.png in Resources */,
-				CFF47DEE1B19A66A00FD29E1 /* lockBG_down@2x.png in Resources */,
 				CFC9DD111AE12E3600AE8E21 /* user@2x.png in Resources */,
 				CF8B1E031ABAF88D0024FCAC /* PBill.storyboard in Resources */,
+				7728F1531BC66FDA0067F9F6 /* movieEndFullscreen@2x.png in Resources */,
 				77A376C61BB28EBD00F9C41F /* 包@2x.png in Resources */,
 				7756B7BA1B71FD4700056569 /* PAvatarView.xib in Resources */,
 				77693C0B1B73391F00F4582C /* record_close_normal.png in Resources */,
-				7792AADE1B4A2F2D0037BBDD /* Optiona@2x.png in Resources */,
 				77A376D31BB28EBD00F9C41F /* 礼物箱图片3@3x.png in Resources */,
 				CF7E47E91AC1BE0400E9572E /* loading7.png in Resources */,
 				777EFBE51B785EFD0036FBBF /* beautyComments@2x.png in Resources */,
@@ -3426,7 +3409,6 @@
 				777EFBEC1B787B470036FBBF /* PBeautyDetailPresentCell.xib in Resources */,
 				77693C311B73391F00F4582C /* record_tool_disable.png in Resources */,
 				CF7E47E31AC1BE0400E9572E /* loading4.png in Resources */,
-				77A26D371B4F7451006369F5 /* sliderthumb@2x.png in Resources */,
 				CFC9DCFF1AE12E3600AE8E21 /* agreement_up@2x.png in Resources */,
 				CFC9DCFD1AE12E3600AE8E21 /* agreement_down@2x.png in Resources */,
 				77693C3C1B73391F00F4582C /* vedio_nav_btn_back_pre@2x.png in Resources */,
@@ -3438,6 +3420,8 @@
 				77693C0D1B73391F00F4582C /* record_delete_disable.png in Resources */,
 				779198AA1B5F3A100099796F /* dramavote@2x.png in Resources */,
 				CFC9DD631AE1387500AE8E21 /* PRegisterViewController.xib in Resources */,
+				7728F1441BC66FDA0067F9F6 /* lockBG_up@2x.png in Resources */,
+				7728F14E1BC66FDA0067F9F6 /* movieBackward.png in Resources */,
 				CF7E48031AC1BF9800E9572E /* loading21.png in Resources */,
 				CF8B1E131ABAF88D0024FCAC /* PToy.storyboard in Resources */,
 				CF7E48091AC1BF9800E9572E /* loading18.png in Resources */,
@@ -3446,10 +3430,8 @@
 				77A376C71BB28EBD00F9C41F /* 包@3x.png in Resources */,
 				77693C401B73391F00F4582C /* video_longvideo_btn_pause@2x.png in Resources */,
 				77693C3D1B73391F00F4582C /* video_icon.png in Resources */,
-				CFF47DF01B19A66A00FD29E1 /* lockBG_up@2x.png in Resources */,
 				77A377001BB28EBD00F9C41F /* 我的收藏图片2@3x.png in Resources */,
 				7756B7991B71A4F600056569 /* PAboutDramaViewController.xib in Resources */,
-				CFF47DF21B19A66A00FD29E1 /* playback_pause.png in Resources */,
 				77A377021BB28EBD00F9C41F /* 我的收藏图片3@3x.png in Resources */,
 				77A376F91BB28EBD00F9C41F /* 玩票图片6@2x.png in Resources */,
 				CFC9DD551AE1387500AE8E21 /* Login.storyboard in Resources */,
@@ -3457,7 +3439,6 @@
 				77B08DAC1B54FC1100100FD2 /* 2.png in Resources */,
 				7756B79B1B71A4F600056569 /* PFindPassViewController.xib in Resources */,
 				779E7CD41B45265A00951527 /* PBeautyDetailResumeCell.xib in Resources */,
-				CFF47DFA1B19A66A00FD29E1 /* playBtBG@2x.png in Resources */,
 				7740E8281B7DC9470070D813 /* PSelectorView.xib in Resources */,
 				77612E291B6B2DEC001F983F /* toy_TopBG.png in Resources */,
 				77693C081B73391F00F4582C /* record_close_disable@2x.png in Resources */,
@@ -3466,18 +3447,19 @@
 				77693C071B73391F00F4582C /* record_close_disable.png in Resources */,
 				CFA794C31AF4F57600E56796 /* sharetool_forwarding@2x.png in Resources */,
 				77B480231B5CC04A00FF3E19 /* PAuctionInfoView.xib in Resources */,
+				7728F1451BC66FDA0067F9F6 /* Optiona@2x.png in Resources */,
 				CF8B1E0B1ABAF88D0024FCAC /* PMe.storyboard in Resources */,
 				7759577E1B7AF1D600889A90 /* PTabControlView.xib in Resources */,
 				77693C0F1B73391F00F4582C /* record_delete_normal.png in Resources */,
 				77A376E01BB28EBD00F9C41F /* 明星详情-范冰冰1.png in Resources */,
 				77B08D931B54BAA900100FD2 /* tabbar_me@2x.png in Resources */,
-				CFA7942E1AF4EF9600E56796 /* movieBackward@2x.png in Resources */,
 				77693C2C1B73391F00F4582C /* record_lensflip_highlighted@2x.png in Resources */,
 				77A376D41BB28EBD00F9C41F /* 明星图片0@2x.png in Resources */,
 				CF7E48051AC1BF9800E9572E /* loading20.png in Resources */,
 				777EFBFE1B7884330036FBBF /* beautyBarLike_down@2x.png in Resources */,
 				77693C2E1B73391F00F4582C /* record_lensflip_normal@2x.png in Resources */,
 				77693C121B73391F00F4582C /* record_deletesure_normal@2x.png in Resources */,
+				7728F1541BC66FDA0067F9F6 /* movieForward.png in Resources */,
 				77C9CA881B9D2E7C00DE2267 /* drama_cell_play@2x.png in Resources */,
 				CF8B1E9D1ABB113C0024FCAC /* README.txt in Resources */,
 				77693C361B73391F00F4582C /* record_tool_normal@2x.png in Resources */,
@@ -3491,7 +3473,9 @@
 				CFA794C11AF4F57600E56796 /* sharetool_collection@2x.png in Resources */,
 				CFA794191AF4EF5800E56796 /* PShareToolsView.xib in Resources */,
 				77A376EB1BB28EBD00F9C41F /* 手表2@2x.png in Resources */,
+				7728F1431BC66FDA0067F9F6 /* lockBG_down@2x.png in Resources */,
 				CF7E47D71AC1BE0400E9572E /* loading12.png in Resources */,
+				7728F1511BC66FDA0067F9F6 /* movieBackwardSelected@2x.png in Resources */,
 				777EFBD51B7850270036FBBF /* beautyBoy@3x.png in Resources */,
 				CF7E480D1AC1BF9800E9572E /* loading16.png in Resources */,
 				77693C391B73391F00F4582C /* vedio_nav_btn_back_nor.png in Resources */,
@@ -3512,18 +3496,20 @@
 				777EFC011B7884330036FBBF /* beautyBarPresent_down@2x.png in Resources */,
 				777CD1761B96AE2700B66947 /* PDramaDetailChapterCell.xib in Resources */,
 				77693C151B73391F00F4582C /* record_flashlight_highlighted.png in Resources */,
-				CFA794301AF4EF9600E56796 /* movieBackwardSelected.png in Resources */,
 				77693C101B73391F00F4582C /* record_delete_normal@2x.png in Resources */,
 				77693C1A1B73391F00F4582C /* record_focus_disable@2x.png in Resources */,
 				777EFBDC1B7850270036FBBF /* beautyNext@3x.png in Resources */,
 				7775FE4F1B5610BB00E172BA /* ptbugle@2x.png in Resources */,
 				7752F2DD1B70A37F00AA0C3A /* playme_msg@2x.png in Resources */,
 				77B08D921B54BAA900100FD2 /* tabbar_me_sel@2x.png in Resources */,
+				7728F14C1BC66FDA0067F9F6 /* sliderthumb.png in Resources */,
 				77C1082D1B6F4190002F384F /* PAuctionBottomCell.xib in Resources */,
+				7728F1501BC66FDA0067F9F6 /* movieBackwardSelected.png in Resources */,
 				77A376E11BB28EBD00F9C41F /* 明星详情-范冰冰2.png in Resources */,
 				7775FE481B55F9F400E172BA /* PAuctionViewController.xib in Resources */,
 				77A376FA1BB28EBD00F9C41F /* 玩票图片6@3x.png in Resources */,
 				77A376D11BB28EBD00F9C41F /* 礼物箱图片2@3x.png in Resources */,
+				7728F1561BC66FDA0067F9F6 /* movieForwardSelected.png in Resources */,
 				CF7E47FF1AC1BF9800E9572E /* loading23.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3535,40 +3521,29 @@
 				CF7E480C1AC1BF9800E9572E /* loading17.png in Resources */,
 				CFC9DD0A1AE12E3600AE8E21 /* ploginClose@2x.png in Resources */,
 				CF7E47FE1AC1BF9800E9572E /* loading24.png in Resources */,
-				CFA794371AF4EF9600E56796 /* movieEndFullscreen@2x.png in Resources */,
-				CFA794351AF4EF9600E56796 /* movieEndFullscreen.png in Resources */,
 				CFC9DD121AE12E3600AE8E21 /* user@2x.png in Resources */,
 				CF9B8E871AD69CAF001B00FC /* PSearcherView.xib in Resources */,
-				CFA7943B1AF4EF9600E56796 /* movieForward@2x.png in Resources */,
 				CFC9DD5A1AE1387500AE8E21 /* PClauseViewController.xib in Resources */,
-				CFF47DF71B19A66A00FD29E1 /* playback_play.png in Resources */,
 				CFA7941A1AF4EF5800E56796 /* PShareToolsView.xib in Resources */,
 				CF8B1E9E1ABB113C0024FCAC /* README.txt in Resources */,
 				CF7E48001AC1BF9800E9572E /* loading23.png in Resources */,
 				CFC9DD041AE12E3600AE8E21 /* loginBG_Arrow@2x.png in Resources */,
 				CF7E47EE1AC1BE0400E9572E /* loading9.png in Resources */,
-				CFA7943D1AF4EF9600E56796 /* movieForwardSelected.png in Resources */,
 				CF7E47DA1AC1BE0400E9572E /* loading13.png in Resources */,
 				CF7E47D61AC1BE0400E9572E /* loading11.png in Resources */,
-				7792AADC1B4A2EBF0037BBDD /* Optionb@2x.png in Resources */,
 				CF7E47D01AC1BE0400E9572E /* loading0.png in Resources */,
 				CF7E48081AC1BF9800E9572E /* loading19.png in Resources */,
 				779E7CD51B45265A00951527 /* PBeautyDetailResumeCell.xib in Resources */,
 				CF7E480A1AC1BF9800E9572E /* loading18.png in Resources */,
-				CFF47DFB1B19A66A00FD29E1 /* playBtBG@2x.png in Resources */,
 				CF8B1E001ABAF88D0024FCAC /* PBeauty.storyboard in Resources */,
-				CFA7942D1AF4EF9600E56796 /* movieBackward.png in Resources */,
 				CF7E47E61AC1BE0400E9572E /* loading5.png in Resources */,
 				CF8B1E141ABAF88D0024FCAC /* PToy.storyboard in Resources */,
 				CFA794C21AF4F57600E56796 /* sharetool_collection@2x.png in Resources */,
-				CFF47DED1B19A66A00FD29E1 /* fullScreen@2x.png in Resources */,
 				CF7E48021AC1BF9800E9572E /* loading22.png in Resources */,
 				771868971B43D5F300CFE197 /* PBeautyCollectionCell.xib in Resources */,
 				CFC9DD641AE1387500AE8E21 /* PRegisterViewController.xib in Resources */,
-				CFF47DF11B19A66A00FD29E1 /* lockBG_up@2x.png in Resources */,
 				CF0CB0AC1AD8106F0095FA9C /* drame_arrow@2x.png in Resources */,
 				CF7E47E81AC1BE0400E9572E /* loading6.png in Resources */,
-				CFA794331AF4EF9600E56796 /* movieBackwardSelected@2x.png in Resources */,
 				CF7E47E21AC1BE0400E9572E /* loading3.png in Resources */,
 				CFA794C61AF4F57600E56796 /* sharetool_like@2x.png in Resources */,
 				CF677FD61AD8F499009E969D /* pcommon_nav_back@2x.png in Resources */,
@@ -3581,42 +3556,31 @@
 				CF0CB09F1AD7F4260095FA9C /* playdrama_welcome@2x.png in Resources */,
 				CF8B1E041ABAF88D0024FCAC /* PBill.storyboard in Resources */,
 				CF7E48041AC1BF9800E9572E /* loading21.png in Resources */,
-				CFF47DF91B19A66A00FD29E1 /* playback_play@2x.png in Resources */,
 				CFC9DD171AE12E4700AE8E21 /* share@2x.png in Resources */,
-				CFF47DF51B19A66A00FD29E1 /* playback_pause@2x.png in Resources */,
-				7792AADF1B4A2F2D0037BBDD /* Optiona@2x.png in Resources */,
 				CF0CB09D1AD7F4260095FA9C /* playdrama_no_data@2x.png in Resources */,
 				CFC9DCC71AE12CFF00AE8E21 /* PDrama.storyboard in Resources */,
 				CF9B8E9A1AD69CEF001B00FC /* MJRefresh.bundle in Resources */,
 				CFC9DD061AE12E3600AE8E21 /* password@2x.png in Resources */,
-				CFF47DF31B19A66A00FD29E1 /* playback_pause.png in Resources */,
 				77E8BB431B39976000A15EDB /* beautyBoy@2x.png in Resources */,
 				CFC9DD021AE12E3600AE8E21 /* clause.txt in Resources */,
-				CFF47DEF1B19A66A00FD29E1 /* lockBG_down@2x.png in Resources */,
 				CF8B1E101ABAF88D0024FCAC /* PlayTabBar.storyboard in Resources */,
 				CFA794551AF4F06D00E56796 /* PCustomerBottomBar.xib in Resources */,
 				CF7E47D81AC1BE0400E9572E /* loading12.png in Resources */,
 				CF7E47E41AC1BE0400E9572E /* loading4.png in Resources */,
 				CF7E480E1AC1BF9800E9572E /* loading16.png in Resources */,
 				CFC9DD0E1AE12E3600AE8E21 /* register_phone@2x.png in Resources */,
-				77A26D381B4F7451006369F5 /* sliderthumb@2x.png in Resources */,
 				CF7E47DC1AC1BE0400E9572E /* loading14.png in Resources */,
 				77E8BB451B39976000A15EDB /* beautyGirl@2x.png in Resources */,
 				CF7E47DE1AC1BE0400E9572E /* loading15.png in Resources */,
-				CFA7942F1AF4EF9600E56796 /* movieBackward@2x.png in Resources */,
 				CF7E47D21AC1BE0400E9572E /* loading1.png in Resources */,
 				CFC9DD001AE12E3600AE8E21 /* agreement_up@2x.png in Resources */,
-				77A26D361B4F7451006369F5 /* sliderthumb.png in Resources */,
 				CF8B1E0C1ABAF88D0024FCAC /* PMe.storyboard in Resources */,
-				CFF47DEB1B19A66A00FD29E1 /* dramaselector@2x.png in Resources */,
 				CF7E48061AC1BF9800E9572E /* loading20.png in Resources */,
 				CFC9DCFE1AE12E3600AE8E21 /* agreement_down@2x.png in Resources */,
 				CFA794C41AF4F57600E56796 /* sharetool_forwarding@2x.png in Resources */,
 				CF0CB0A21AD7F4340095FA9C /* drama_search@2x.png in Resources */,
 				CFA794011AF4EF1600E56796 /* bottomtabbar_line@2x.png in Resources */,
 				CFC9DD681AE1387500AE8E21 /* PResetPasswordViewController.xib in Resources */,
-				CFA794311AF4EF9600E56796 /* movieBackwardSelected.png in Resources */,
-				CFA794391AF4EF9600E56796 /* movieForward.png in Resources */,
 				CF7E47D41AC1BE0400E9572E /* loading10.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
