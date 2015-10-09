@@ -11,12 +11,12 @@
 #define kPDramaBBtnType          2009 //B
 
 @interface PSelectorView()
-@property (weak, nonatomic) IBOutlet UIView *optionAView;
-@property (weak, nonatomic) IBOutlet UIView *optionBView;
-@property (weak, nonatomic) IBOutlet UIButton *optionABtn;
-@property (weak, nonatomic) IBOutlet UIButton *optionBBtn;
-@property (weak, nonatomic) IBOutlet UILabel *optionATextLabel;
-@property (weak, nonatomic) IBOutlet UILabel *optionBTextLabel;
+@property (weak, nonatomic) IBOutlet UIView     *optionAView;
+@property (weak, nonatomic) IBOutlet UIView     *optionBView;
+@property (weak, nonatomic) IBOutlet UIButton   *optionABtn;
+@property (weak, nonatomic) IBOutlet UIButton   *optionBBtn;
+@property (weak, nonatomic) IBOutlet UILabel    *optionATextLabel;
+@property (weak, nonatomic) IBOutlet UILabel    *optionBTextLabel;
 @end
 
 @implementation PSelectorView

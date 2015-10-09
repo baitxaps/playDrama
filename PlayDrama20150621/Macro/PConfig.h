@@ -19,17 +19,17 @@
 #define  DEVELOP_CONFIG_URL     @"http://118.123.21.72:8081/sbms/"
 /*
  ticket = 746ccc8b9994cc1724ebe2884a627546;
- type = "ios_update";
+ type   = "ios_update";
  */
 //@"http://www.sfshare.com.cn/service/getSystemConstant"
 
 
-#define  G_GOLOAPPAREASPANISH      @"http://118.123.21.72:8081/sbms/"
+#define  P_DRAMAAPPAREASPANISH      @"http://118.123.21.72:8081/sbms/"
 
 #if (APP_DEV_MODE == 0)
 #define SERVICE_CONFIG_URL     DEVELOP_CONFIG_URL
 #elif  (APP_DEV_MODE == 1)
-#define SERVICE_CONFIG_URL     G_GOLOAPPAREASPANISH
+#define SERVICE_CONFIG_URL     P_DRAMAAPPAREASPANISH
 #endif
 
 #define PLAY_BASE_URL_STR       @"http://116.6.96.154:8888"
@@ -120,9 +120,5 @@
 #define PATH_IN_SayHello(f)         ([NSString stringWithFormat:@"%@/Documents/%@",NSHomeDirectory(),f])
 #define USER_AVATAR_DIR             ([NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Avatar"])
 #define PATH_IN_USER_AVATAR_DIR(f)  ([NSString stringWithFormat:@"%@/Documents/Avatar/%@", NSHomeDirectory(),f])
-
-
-
-
 
 #endif

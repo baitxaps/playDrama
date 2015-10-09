@@ -44,11 +44,11 @@
 #define kOffset                 3
 
 // push msg
-#define kCellBoundsHeight   44 //cell的原始高度
-#define kRTLabelHeight      36 //rtLabel 的原始高度
+#define kCellBoundsHeight       44 //cell的原始高度
+#define kRTLabelHeight          36 //rtLabel 的原始高度
 #define KCellYGapBetweenSubViews 8
 #define KCellXGapBetweenSubViews 15
-#define kWidthOffset        30
+#define kWidthOffset             30
 
 
 // 状态栏高度 + 导航栏高度

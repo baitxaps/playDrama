@@ -35,21 +35,21 @@
 {
     AppDelegate              *_app ;
     PTabControlView          *_tabView;
-    PKeyBoardView           *_inputView;
+    PKeyBoardView            *_inputView;
 }
-@property (weak,  nonatomic) IBOutlet UITableView    *dramaDetailTableView;
-@property (weak,  nonatomic) IBOutlet UIView         *dramaHeadView;
+@property (weak,  nonatomic) IBOutlet UITableView   *dramaDetailTableView;
+@property (weak,  nonatomic) IBOutlet UIView        *dramaHeadView;
 @property (strong,nonatomic) PCustomerBottomBar     *bottombar;
 @property (strong,nonatomic) PShareToolsView        *shareTools;
 @property (strong,nonatomic) FFmpegPlayer           *ffmpegPlayer;
 @property (strong,nonatomic) PBeautyEntityAdapter   *tabAdapter;
 @property (assign,nonatomic) TabInformationType     tabInfomationType;
 
-@property (strong,nonatomic) PDramaEntity          *dramaEntity;
-@property (strong,nonatomic) NSMutableArray        *commentData;
+@property (strong,nonatomic) PDramaEntity           *dramaEntity;
+@property (strong,nonatomic) NSMutableArray         *commentData;
 
-@property (strong,nonatomic) NSDictionary          *selectorDict;
-@property (strong,nonatomic) NSArray               *keys;
+@property (strong,nonatomic) NSDictionary           *selectorDict;
+@property (strong,nonatomic) NSArray                *keys;
 @end
 
 @implementation PDramaDetailViewController
@@ -374,7 +374,7 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     static NSString *cellIdentifer = @"PBeautyTableViewHeadView";
-    _tabView    = [tableView dequeueReusableCellWithIdentifier:cellIdentifer];
+    _tabView    = (PTabControlView *)[tableView dequeueReusableCellWithIdentifier:cellIdentifer];
     WS(weakSelf);
     if (_tabView==nil) {
         _tabView =   [PTabControlView initWithNib];

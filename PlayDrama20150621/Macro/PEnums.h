@@ -100,6 +100,6 @@ typedef NS_ENUM(NSInteger, TabInformationType) {
 #define MP4_8   @"http://krtv.qiniudn.com/150522nextapp"
 #define MP4_9   @"http://123.134.67.197:80/play/4B07614CBE84228E2645AC9F14C4BABFC5E6F0E1.mp4"
 #define MP4_10  @"http://7xj7y3.com1.z0.glb.clouddn.com/test.mp4"
-
+#define MP4_11  @"http://ws.v.chuanke.com/vedio/c/8e/d7/c8ed78bcd1f3e699e6e05ffaae607735.mp4"
 
 #endif

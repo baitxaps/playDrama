@@ -10,13 +10,14 @@ typedef void (^LimitFullScreenBlock)(BOOL isFullScreen);
 
 @interface FFmpegPlayer : UIView
 
-@property (copy,nonatomic)LimitFullScreenBlock  limitFullScreenBlock;
-@property (weak, nonatomic) IBOutlet UILabel    *movieTextLabel;//影片名称
-@property (weak,nonatomic) UIViewController     *viewController;
-@property (readonly) BOOL                       playing;
+@property (copy,nonatomic) LimitFullScreenBlock     limitFullScreenBlock;
+@property (weak,nonatomic) IBOutlet UILabel         *movieTextLabel;//影片名称
+@property (weak,nonatomic) UIViewController         *viewController;
+@property (readonly) BOOL                           playing;
 
 + (FFmpegPlayer *)initNib;
-- (void)playWithContentPath: (NSString *) path parameters: (NSDictionary *) parameters;
+- (void)playWithContentPath: (NSString *) path
+                 parameters: (NSDictionary *) parameters;
 - (void)hidetopContainerView:(BOOL)hide;
 - (void)viewDidAppear;
 - (void)viewWillDisappear;

@@ -91,7 +91,7 @@
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     static NSString *cellIdentifer = @"PAuctionInfoHeadCell";
-    UITableView *view = [tableView dequeueReusableCellWithIdentifier:cellIdentifer];
+    UIView *view = [tableView dequeueReusableCellWithIdentifier:cellIdentifer];
     if (view==nil) {
         view = [[NSBundle mainBundle]loadNibNamed:@"PAuctionInfoHeadCell"
                                             owner:self
